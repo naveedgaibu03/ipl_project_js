@@ -1,0 +1,17 @@
+{
+    "name": "js-ipl-data-project",
+    "version": "1.0.0",
+    "description": "IPL data analysis project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/server/1-matches-per-year.js && node src/server/2-matches-won-per-team-per-year.js && node src/server/3-extra-runs-conceded.js && node src/server/4-economical-bowlers.js"
+    },
+    "dependencies": {
+        "csv-parser": "^3.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    },
+    "author": "Naveed",
+    "license": "ISC"
+}
